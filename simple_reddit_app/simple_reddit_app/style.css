@@ -1,0 +1,80 @@
+body {
+    background: linear-gradient(to right, #EBE5C2, #F8F3D9);
+    color: #6F4E37;
+    font-family: 'Arial', sans-serif;
+    text-align: center;
+    margin-top: 50px;
+}
+
+h1 {
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+button {
+    background-color: #BFBBA9;
+    color: white;
+    padding: 12px 24px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 18px;
+    transition: 0.3s;
+}
+
+button:hover {
+    background-color: #A27B5C;
+    transform: scale(1.1);
+}
+
+.subreddit-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    padding: 20px;
+    justify-content: center;
+}
+
+.subreddit-card {
+    border: 2px solid rgb(121, 118, 118);
+    border-radius: 15px;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.1);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+    backdrop-filter: blur(10px);
+}
+
+.subreddit-card h3 {
+    margin-top: 0;
+    color: #ECB176;
+}
+
+.subreddit-card img {
+    border-radius: 10px;
+    width: 80px;
+    height: 80px;
+}
+
+.subreddit-card button {
+    background-color: #74512D;
+    color: whitesmoke;
+    font-weight: bold;
+}
+
+.subreddit-card button:hover {
+    background-color: #AF8F6F;
+}
+
+#backToTop {
+    background-color: #A27B5C;
+    color: black;
+    font-weight: bold;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+
+#backToTop:hover {
+    background-color: #BFBBA9;
+}
